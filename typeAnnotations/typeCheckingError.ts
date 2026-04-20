@@ -19,10 +19,11 @@
 // greet("madhav", new Date());
 
 
-function greet(name, date){
+function greet(name:string, date:Date){
     console.log("Hello ".concat(name, ", today is ").concat(date.toDateString()));
 }
 
 greet("abc", new Date());
+
 
 

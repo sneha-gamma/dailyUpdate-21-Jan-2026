@@ -31,7 +31,7 @@ class Person{
 
 let p1 = new Person('3457652','Sneha', 'Bhagat');
 console.log(p1.getFullName());
-p1.ssn = '346578962';
+//p1.ssn = '346578962';
 console.log(p1.ssn);
 
 
